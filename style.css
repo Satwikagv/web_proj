@@ -1,0 +1,14 @@
+div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.g1{
+    background-color: #B0DB9C;
+}
+.g2{
+    background-color: #CAE8BD;
+}
+.bold{
+    font-weight: bolder;
+}
