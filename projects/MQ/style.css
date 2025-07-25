@@ -1,0 +1,18 @@
+body{
+    background-color: #ECFAE5;
+}
+div{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.g1{
+    background-color: #B0DB9C;
+    margin-top: -22px;
+}
+.g2{
+    background-color: #CAE8BD;
+    margin-top: -22px;
+}
+.bold{
+    font-weight: bolder;
+}
