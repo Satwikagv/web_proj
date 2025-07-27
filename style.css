@@ -7,12 +7,16 @@ div{
 }
 .g1{
     background-color: #B0DB9C;
-    margin-top: -22px;
+    margin-top: -43px; 
+    font-size: 2rem;  
+
 }
 .g2{
     background-color: #CAE8BD;
-    margin-top: -22px;
+    margin-top: -43px;
+    font-size: 1.2rem;
 }
 .bold{
     font-weight: bolder;
 }
+
