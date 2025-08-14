@@ -8,11 +8,12 @@ div{
 .g1{
     background-color: #B0DB9C;
     font-size: 2rem;  
-
+    margin-bottom : 10px;
 }
 .g2{
     background-color: #CAE8BD;
     font-size: 1.2rem;
+    margin-bottom : 10px;
 }
 .bold{
     font-weight: bolder;
@@ -21,8 +22,9 @@ span{
     font-weight: bold;
 }
 li{
-    padding: 3px;
+    margin-bottom : 10px;
 }
+
 
 
 
