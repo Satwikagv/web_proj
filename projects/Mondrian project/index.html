@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://github.com/mozilla/mozilla-headline-type" /> 
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    .center{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    h1{
+      font-size: 2.5rem;
+      text-align: center;
+      font-style: oblique;
+    }
+    .board{
+      background-color: black;
+      width: 748px;
+      height: 746px;
+      display: grid;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
+      gap: 9px;
+    }
+    .red{
+      background-color: #E72F24;
+    }
+    .two{
+      grid-column: span 3;
+    }
+    .white{
+      background-color: #F0F1EC;
+    }
+    .three{
+      grid-row: span 2;
+    }
+    .four{
+      grid-row: span 2;
+      grid-column: span 2;
+    }
+    .blue{
+      background-color: #004592;
+      border-bottom: 10px solid black;
+    }
+    .eight{
+      background-color: #F9D01E;
+    }
+    .nine{
+      background-color: #232629;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+   <h1>Mondrian Composition</h1>
+   <div class="center">
+   <div class="board">
+    <div class="box red"></div>
+    <div class="white two"></div>
+    <div class="white three"></div>
+    <div class="white four"></div>
+    <div class="box blue"></div>
+    <div class="white"></div>
+    <div class="white"></div>
+    <div class="eight"></div>
+    <div class="nine"></div>
+    <div class="white"></div>
+  </div>
+  </div>
+</body>
+
+</html>
