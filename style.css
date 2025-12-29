@@ -9,7 +9,9 @@ div{
 .g1{
     background-color: #B0DB9C;
     padding:1px;
-    font-size: 2rem;  
+    font-size: 2rem; 
+    display: flex;
+    text-align: center;
 
 }
 .g2{
@@ -27,13 +29,6 @@ li{
     padding: 10px;
     margin: 5px;
 }
-
-
-
-
-
-
-
 
 
 
