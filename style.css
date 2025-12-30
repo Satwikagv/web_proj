@@ -1,34 +1,54 @@
-body{
-    background-color: #ECFAE5;
+* {
+    margin:0;
+    padding: 0;
 }
-div{
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top : -10px;
-}
-.g1{
-    background-color: #B0DB9C;
-    padding:1px;
-    font-size: 2rem; 
-    display: flex;
-    text-align: center;
 
+.header{
+    Padding: 1.5rem;
+    text-align: center;
+    background-color: #1e293b;
+    color: white;
 }
-.g2{
-    background-color: #CAE8BD;
-    font-size: 1.2rem;
-    padding:1px;
+
+.header h1{
+    font-size: 2rem     ;
 }
-.bold{
-    font-weight: bolder;
+
+.intro{
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+    font-size: large;
 }
-span{
+
+#prj{
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.projects h2{
+    font-weight: bold ;
+}
+.card{
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    
+}
+
+.card-title{
     font-weight: bold;
 }
-li{
-    padding: 10px;
-    margin: 5px;
+
+.project-link{
+    text-decoration: none;
 }
 
 
 
+/* .projects {
+    color: #333;
+    line-height: 1.6;
+    margin: auto;
+    padding: 20px;#F5F2F2
+} */
